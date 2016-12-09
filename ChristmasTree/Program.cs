@@ -10,19 +10,15 @@ namespace ChristmasTree
     {
         static void Main(string[] args)
         {
-           // Square sqr = new Square(5);
-            //sqr.Draw();
-            Triangle trg = new Triangle(10);
+            SolidTriangle trg = new SolidTriangle(5);
             trg.Draw();
-            Triangle trg1 = new Triangle(7);
+            SolidTriangle trg1 = new SolidTriangle(5);
             trg1.Draw();
-            Triangle trg2 = new Triangle(3);
+            SolidTriangle trg2 = new SolidTriangle(5);
             trg2.Draw();
-            SolidTriangle strg = new SolidTriangle(5);
-            strg.Draw();
+            Console.WriteLine("   ***");
+            Console.WriteLine("   ***");
 
-            Circle cr = new Circle(5);
-            cr.Draw();
 
         }
     }

@@ -27,8 +27,6 @@ namespace ChristmasTree
                 }
                 Console.WriteLine();
             }
-
-
         }
     }
 }
